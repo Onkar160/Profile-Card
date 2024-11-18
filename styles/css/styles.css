@@ -1,0 +1,49 @@
+body {
+    background-image: url(/assets/body-background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box {
+    background-image: url(/assets/card-background.jpg);
+    background-size: cover;
+    color: #013680;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 90px;
+}
+
+.profile-pic {
+    width: 200px;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.menu-icon, .setting-icon {
+    width: 35px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -50px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px -20px 0px;
+    gap: 20px;
+}
+
+.social-media img{
+    width: 30px;
+}
+
+h2 {
+    margin-bottom: -10px;
+}
